@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Location</h1>
+    <button onclick="refreshPage()">Location</button>
+    <button onclick="visitPH()">visit PH</button>
+    <button onclick="href()">full Href</button>
+
+
+    <script>
+        const refreshPage = () => {
+            location.reload();
+        }
+        const visitPH = () => {
+            location.replace('https://www.cricbuzz.com/');
+        }
+        const href = () => {
+            // console.log(location.href());
+            location.replace('https://www.youtube.com/watch?v=fgdpvwEWJ9M&t=500s');
+            location.search();
+        }
+    </script>
+</body>
+</html>
