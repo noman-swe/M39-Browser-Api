@@ -54,3 +54,7 @@ const placeOrder = () => {
 }
 
 displayLocalStorageCart();
+
+/* 
+sessionStorage er jonne jei jei jaygay localStorage likhsi oi oi jaygay sessionStorage likhlei seta session storage manage er jonne use kora jabe
+ */
